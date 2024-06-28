@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    width: 600px;
+    aspect-ratio: 1 / 1;
+    justify-content: center;
+    flex-flow: row wrap;
+    /* flex: auto; */
+}
+
+#container > div {
+    aspect-ratio: 1 / 1;
+    size: auto;
+    background-color: aqua;
+    flex: auto;
+}
