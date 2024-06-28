@@ -1,4 +1,6 @@
-let numberOfRows = prompt("How many rows do you want ?")
+let numberOfRows = 16;
+
+
 
 for (let i = 0; i < (numberOfRows * numberOfRows); i++) {
     const div = [];
@@ -16,7 +18,11 @@ divsGrid.addEventListener("mouseover", (event) => {
     event.target.style.backgroundColor = "gray"
 })
 
+const btn = document.querySelector("button");
 
+btn.addEventListener("click", () => {
+    numberOfRows = prompt("How many rows do you want ?")
+});
 
 
 

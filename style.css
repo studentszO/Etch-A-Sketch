@@ -13,3 +13,7 @@
     background-color: aqua;
     flex: auto;
 }
+
+button {
+    margin-bottom: 5px;
+}
